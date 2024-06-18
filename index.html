@@ -20,6 +20,8 @@
             width: 100%;
             top: 0;
             z-index: 1000;
+            overflow-x: auto; /* Make the menu scrollable */
+            white-space: nowrap; /* Prevent wrapping of menu items */
         }
         .menu-bar a {
             color: #ffffff;
@@ -58,7 +60,7 @@
             font-size: 12px;
             line-height: 1.5;
             font-family: 'Georgia', serif;
-			color: #ececec;
+            color: #ececec;
             cursor: pointer;
         }
         @media (min-width: 600px) {
@@ -135,31 +137,7 @@
     <div class="content">
         <h1></h1>
         <div id="iphone" class="news-headlines">
-            <div class="headline" data-article="In May 2024, the ApeCoin DAO approved several AIPs (Ape Improvement Proposals). Here are the key AIPs that were approved during this month:
-
-AIP-407: ApeCoin Sponsorship for WebX2024 - This proposal secured funding for ApeCoin’s participation in WebX2024, the largest Web3 event in Asia. The sponsorship included costs for a booth, side events, marketing materials, and a mascot​ (ApeCoin DAO)​.
-
-AIP-412: Streamlining Working Group Elections: Improved Second-Round Voting Strategy - This AIP aimed to improve the voting strategy for working group elections, ensuring more efficient and representative election processes​ (ApeCoin DAO)​.
-
-AIP-411: ArtJourney with ApeCoin: The JRNY Gallery Experience - This proposal involved funding for an art gallery experience showcasing ApeCoin-related art, aimed at increasing engagement and visibility within the community​ (ApeCoin DAO)​.
-
-AIP-405: [Resubmission] ApeSwap on ApeChain - This proposal was a resubmission aiming to establish a decentralized exchange (DEX) on ApeChain, providing benefits to the ApeCoin community by enabling easier and more efficient token swaps​ (ApeCoin DAO)​.
-
-AIP-410: ApeCoin DAO Goes to Hollywood - This proposal focused on promoting ApeCoin through participation in Hollywood events, aiming to enhance brand visibility and attract new members to the community​ (ApeCoin DAO)​.
-
-These approved AIPs reflect the diverse initiatives and strategic efforts undertaken by the ApeCoin DAO to expand its reach, enhance community engagement, and improve operational efficiencies.In May 2024, the ApeCoin DAO approved several AIPs (Ape Improvement Proposals). Here are the key AIPs that were approved during this month:
-
-AIP-407: ApeCoin Sponsorship for WebX2024 - This proposal secured funding for ApeCoin’s participation in WebX2024, the largest Web3 event in Asia. The sponsorship included costs for a booth, side events, marketing materials, and a mascot​ (ApeCoin DAO)​.
-
-AIP-412: Streamlining Working Group Elections: Improved Second-Round Voting Strategy - This AIP aimed to improve the voting strategy for working group elections, ensuring more efficient and representative election processes​ (ApeCoin DAO)​.
-
-AIP-411: ArtJourney with ApeCoin: The JRNY Gallery Experience - This proposal involved funding for an art gallery experience showcasing ApeCoin-related art, aimed at increasing engagement and visibility within the community​ (ApeCoin DAO)​.
-
-AIP-405: [Resubmission] ApeSwap on ApeChain - This proposal was a resubmission aiming to establish a decentralized exchange (DEX) on ApeChain, providing benefits to the ApeCoin community by enabling easier and more efficient token swaps​ (ApeCoin DAO)​.
-
-AIP-410: ApeCoin DAO Goes to Hollywood - This proposal focused on promoting ApeCoin through participation in Hollywood events, aiming to enhance brand visibility and attract new members to the community​ (ApeCoin DAO)​.
-
-These approved AIPs reflect the diverse initiatives and strategic efforts undertaken by the ApeCoin DAO to expand its reach, enhance community engagement, and improve operational efficiencies.">iPhone News Headline 1</div>
+            <div class="headline" data-article="iPhone Article 1 Text">iPhone News Headline 1</div>
             <div class="headline" data-article="iPhone Article 2 Text">iPhone News Headline 2</div>
             <div class="headline" data-article="iPhone Article 3 Text">iPhone News Headline 3</div>
         </div>
@@ -239,3 +217,4 @@ These approved AIPs reflect the diverse initiatives and strategic efforts undert
     </script>
 </body>
 </html>
+
